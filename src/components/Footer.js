@@ -1,10 +1,13 @@
+import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="container mx-auto py-10  bg-green-900 text-center text-sm  text-gray-300  border-t-2 border-green-800">
-      <p> &copy; {new Date().getFullYear()} Todo App. All rights reserved.</p>
+    <footer className="p-10 bg-gray-900 container mx-auto lg:max-w-4xl rounded-b-lg border-t border-teal-900 border-dashed">
+      <p className="text-center text-sm text-teal-600">
+        &copy; {new Date().getFullYear()} React Todo App. All rights reserved.
+      </p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
